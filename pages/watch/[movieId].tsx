@@ -13,8 +13,8 @@ const Watch = () => {
             <nav className='fixed w-full p-4 z-10 flex flex-row items-center pag-8 bg-black bg-opacity-70'>
             <AiOutlineArrowLeft onClick={() => router.push('/')} className='text-white cursor-pointer' size={30} />
             <p className="text-white text-1xl md:text-3xl text-bold">
-                <span className="font-light">
-                    Watching: 
+                <span className="font-light ml-2">
+                    {"Watching:" + " "}
                 </span>
                 {data?.title}
             </p>
